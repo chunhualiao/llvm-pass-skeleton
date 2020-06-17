@@ -31,9 +31,7 @@ namespace {
               User *user = U.getUser();  // A User is anything with operands.
               user->setOperand(U.getOperandNo(), mul);
             }
-
-// TODO: remove the old instruction: omitted for brevity
-            
+// TODO: remove the old instruction, may need to consider the iterator invalidation problem. omitted for brevity            
             // We modified the code.
             return true;
           }
