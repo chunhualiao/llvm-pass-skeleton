@@ -32,6 +32,8 @@ namespace {
               user->setOperand(U.getOperandNo(), mul);
             }
 
+// TODO: remove the old instruction: omitted for brevity
+            
             // We modified the code.
             return true;
           }
